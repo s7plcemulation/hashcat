@@ -457,8 +457,8 @@ KERNEL_FQ void m33500_comp (KERN_ATTR_TMPS_ESALT (pbkdf2_sha1_tmp_t, pbkdf2_sha1
 
 
 
-  if ((gid == 0) && (lid == 0)) printf ("Output should be: e89076399778be014fd4503fd51b6c398e747a6b\n");
-  if ((gid == 0) && (lid == 0)) printf ("Output is:        %08x%08x%08x%08x%08x\n", tmps[gid].out[DGST_R0], tmps[gid].out[DGST_R1], tmps[gid].out[DGST_R2], tmps[gid].out[DGST_R3], tmps[gid].out[4]);
+  //if ((gid == 0) && (lid == 0)) printf ("Output should be: e89076399778be014fd4503fd51b6c398e747a6b\n");
+  //if ((gid == 0) && (lid == 0)) printf ("Output is:        %08x%08x%08x%08x%08x\n", tmps[gid].out[DGST_R0], tmps[gid].out[DGST_R1], tmps[gid].out[DGST_R2], tmps[gid].out[DGST_R3], tmps[gid].out[4]);
 
   
 
